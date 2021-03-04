@@ -1,0 +1,8 @@
+/* vendor stylesheets */
+@import url(../vendor/normalize.css);
+
+/* font stylesheets */
+@import url(../fonts/fonts.css);
+
+/* primary stylesheets */
+@import url(../blocks/page/page.css);
