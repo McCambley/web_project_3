@@ -2,6 +2,9 @@
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%; */
   background: #2A2C2F;
   color: #FFFFFF;
   padding: 34px 48px 24px;
