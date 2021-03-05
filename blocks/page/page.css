@@ -1,5 +1,7 @@
 .page {
   font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background: #2A2C2F;
   color: #FFFFFF;
   padding: 34px 48px 24px;
