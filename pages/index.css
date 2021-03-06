@@ -15,6 +15,7 @@
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/places/places.css);
+@import url(../blocks/content/content.css);
 
 /* animation stylesheets */
 
@@ -26,7 +27,7 @@ Check that (text-rendering: optimizeLegibility; ) is used on all headings
 
 Common Breakpoints:
 main code for a resolution of 1024px */
-/* commonly used breakpoints
+/* commonly used breakpoints -> add these to whatever changes
 
 @media (min-width : 2560px) {
   styles for large monitors with a resolution of 4K
