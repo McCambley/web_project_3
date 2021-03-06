@@ -1,0 +1,16 @@
+.transparency {
+  opacity: 1;
+  -webkit-transition: opacity;
+  -o-transition: opacity;
+  transition: opacity;
+  -webkit-transition-duration: .3s;
+       -o-transition-duration: .3s;
+          transition-duration: .3s;
+  -webkit-transition-timing-function: ease;
+       -o-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+
+.transparency:hover {
+  opacity: .8;
+}

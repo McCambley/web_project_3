@@ -18,6 +18,8 @@
 @import url(../blocks/content/content.css);
 
 /* animation stylesheets */
+@import url(../blocks/transparency/transparency.css);
+
 
 /* modifiers by block */
 
