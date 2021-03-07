@@ -1,3 +1,9 @@
 @import url(./__copyright/footer__copyright.css);
 @import url(./__link-container/footer__link-container.css);
 @import url(./__link/footer__link.css);
+
+.footer {
+  padding: 92px 48px 0;
+  display: flex;
+  justify-content: space-between;
+}
