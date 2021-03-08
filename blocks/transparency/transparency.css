@@ -11,6 +11,10 @@
           transition-timing-function: ease;
 }
 
-.transparency:hover {
-  opacity: .8;
+
+
+@media (min-width : 769px) {
+  .transparency:hover {
+    opacity: .8;
+  }
 }

@@ -2,7 +2,7 @@
 @import url(./__lang-link/header__lang-link.css);
 
 /* modifier */
-@import url(./__lang-link/_decoration/header__lang-link_decoration_underline.css);
+@import url(./__lang-link/_active/header__lang-link_active.css);
 
 .header {
   display: flex;
@@ -11,3 +11,20 @@
   padding: 0 48px 50px;
 }
 
+@media (min-width : 1280px) {
+  .header {
+    padding: 0 148px 58px;
+  }
+}
+
+@media (max-width : 768px) {
+  .header {
+    padding: 0 24px 50px;
+  }
+}
+
+@media (max-width : 320px) {
+  .header {
+    padding: 0 16px 50px;
+  }
+}

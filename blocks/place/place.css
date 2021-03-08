@@ -11,5 +11,27 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 48px 32px;
   padding-bottom: 80px;
-  max-width: 984px;
+  box-sizing: border-box;
+}
+
+@media (min-width : 1280px) {
+  .place {
+    grid-gap: 48px 40px;
+  }
+}
+
+@media (max-width : 768px) {
+  .place {
+    grid-gap: 48px 28px;
+    padding-bottom: 72px;
+
+  }
+}
+
+@media (max-width : 320px) {
+  .place {
+    grid-template-columns: 1fr;
+    padding-bottom: 49px;
+    grid-gap: 32px;
+  }
 }

@@ -10,5 +10,13 @@
 
 .header__lang-link:last-child {
   margin-right: 0;
+  /* underline created using BEM Boolean Modifier */
   /* text-decoration-line: underline; */
+}
+
+@media (max-width : 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }

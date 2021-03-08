@@ -13,3 +13,27 @@
   align-items: flex-start;
   max-width: 690px;
 }
+
+@media (min-width : 1280px) {
+  .intro {
+    padding-left: 148px;
+  }
+}
+
+@media (max-width : 768px) {
+  .intro {
+    padding: 0 24px 88px;
+    margin: 0 auto 0;
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width : 320px) {
+  .intro {
+    padding: 0 16px 64px;
+    margin: 0 auto 0;
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+}

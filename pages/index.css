@@ -25,28 +25,22 @@
 
 /* Notes:
 
-Check that (text-rendering: optimizeLegibility; ) is used on all headings
+@media (min-width : 1280px) {
+  style {
 
-Common Breakpoints:
-main code for a resolution of 1024px */
-/* commonly used breakpoints -> add these to whatever changes
+  }
+}
 
-@media (min-width : 2560px) {
-  styles for large monitors with a resolution of 4K
-}
-@media (min-width : 1440px) {
-  styles for large desktops and laptops
-}
 @media (max-width : 768px) {
-  styles for tablets
+  style {
+
+  }
 }
-@media (max-width : 425px) {
-  styles for large smartphones
-}
-@media (max-width : 375px) {
-  styles for medium-sized smartphones
-}
+
 @media (max-width : 320px) {
-  styles for small smartphones
+  style {
+
+  }
 }
+
 */
