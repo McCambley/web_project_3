@@ -10,19 +10,19 @@
   align-items: center;
 }
 
-@media (min-width : 1280px) {
+@media (min-width: 1280px) {
   .lead {
     padding: 0 148px 92px;
   }
 }
 
-@media (max-width : 768px) {
+@media (max-width: 768px) {
   .lead {
     padding: 0 0 88px;
   }
 }
 
-@media (max-width : 360px) {
+@media (max-width: 360px) {
   .lead {
     padding: 0 0 64px;
   }

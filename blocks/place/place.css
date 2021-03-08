@@ -14,13 +14,13 @@
   box-sizing: border-box;
 }
 
-@media (min-width : 1280px) {
+@media (min-width: 1280px) {
   .place {
     grid-gap: 48px 40px;
   }
 }
 
-@media (max-width : 768px) {
+@media (max-width: 768px) {
   .place {
     grid-gap: 48px 28px;
     padding-bottom: 72px;
@@ -28,7 +28,7 @@
   }
 }
 
-@media (max-width : 360px) {
+@media (max-width: 360px) {
   .place {
     grid-template-columns: 1fr;
     padding-bottom: 49px;

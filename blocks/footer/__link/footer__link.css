@@ -6,7 +6,7 @@
   line-height: 18px;
 }
 
-@media (max-width : 360px) {
+@media (max-width: 360px) {
   .footer__link {
     margin-right: 0;
     margin-bottom: 32px;

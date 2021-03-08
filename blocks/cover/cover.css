@@ -20,7 +20,7 @@
   opacity: .8;
 }
 
-@media (min-width : 1280px) {
+@media (min-width: 1280px) {
   .cover {
     box-sizing: border-box;
     padding: 0 48px 0;

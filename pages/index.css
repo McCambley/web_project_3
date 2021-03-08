@@ -25,13 +25,13 @@
 
 /* Notes:
 
-@media (min-width : 1280px) {
+@media (min-width: 1280px) {
   style {
 
   }
 }
 
-@media (max-width : 768px) {
+@media (max-width: 768px) {
   style {
 
   }
@@ -40,7 +40,7 @@
 Note: Using 360px here in order to improve
 layout on modern smart phones (Specifically... mine)
 
-@media (max-width : 360px) {
+@media (max-width: 360px) {
   style {
 
   }

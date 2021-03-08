@@ -1,4 +1,4 @@
-@media (max-width : 360px) {
+@media (max-width: 360px) {
   .footer__link-container {
     display: flex;
     flex-direction: column;
