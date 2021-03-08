@@ -13,8 +13,8 @@
   <header class="header">
     <img src="./images/logo.svg" alt="The USA" class="logo">
     <nav class="header__lang-link-container">
-      <a href="www.example.com" class="header__lang-link">EN</a>
-      <a href="www.example.com" class="header__lang-link">ES</a>
+      <a href="www.example.com" class="header__lang-link transparency header__lang-link_decoration_underline">EN</a>
+      <a href="www.example.com" class="header__lang-link transparency">ES</a>
     </nav>
   </header>
 
@@ -22,12 +22,12 @@
   <main class="content">
 
     <!-- Lead section -->
-    <article class="lead">
+    <section class="lead">
       <h1 class="lead__title">From Portland to Portland</h1>
       <h2 class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</h2>
       <img class="lead__image"src="./images/lead-mountains.jpg" alt="Mountains">
       <p class="lead__caption">YOUR JOURNEY STARTS HERE</p>
-    </article>
+    </section>
 
     <!-- Page introduction -->
     <article class="intro">
@@ -43,7 +43,7 @@
     </article>
 
     <!-- Photo grid -->
-    <article class="photo-grid">
+    <section class="photo-grid">
       <img src="./images/photo-grid-highway.jpg" alt="Highway" class="photo-grid__item">
       <img src="./images/photo-grid-lake.jpg" alt="Lake" class="photo-grid__item">
       <img src="./images/photo-grid-seagulls.jpg" alt="Seagulls" class="photo-grid__item">
@@ -56,17 +56,17 @@
       <img src="./images/photo-grid-oasis.jpg" alt="Oasis" class="photo-grid__item">
       <img src="./images/photo-grid-wires.jpg" alt="Wires" class="photo-grid__item">
       <img src="./images/photo-grid-road.jpg" alt="Road" class="photo-grid__item">
-    </article>
+    </section>
 
     <!-- Places column -->
     <!-- I'm going to style one before I populate the masses for sanities sake -->
-    <article class="places">
+    <section class="places">
 
       <div class="place">
         <h2 class="place__title">Maine</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
-          <a href="#" class="place__link transparency">global.llbean.com</a>
+          <a href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1" class="place__link transparency" target="_blank">global.llbean.com</a>
         </div>
         <img src="./images/place-maine.jpg" alt="Maine" class="place__image">
         <div class="place__text">
@@ -80,7 +80,7 @@
         <h2 class="place__title">New Hampshire</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
-          <a href="#" class="place__link transparency">timberland.com</a>
+          <a href="https://www.timberland.com/timberlandpro.html" class="place__link transparency" target="_blank">timberland.com</a>
         </div>
         <img src="./images/place-new-hampshire.jpg" alt="New Hampshire" class="place__image">
         <div class="place__text">
@@ -94,7 +94,7 @@
         <h2 class="place__title">New York</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
-          <a href="#" class="place__link transparency">ge.com</a>
+          <a href="https://www.ge.com/about-us" class="place__link transparency" target="_blank">ge.com</a>
         </div>
         <img src="./images/place-new-york.jpg" alt="New York" class="place__image">
         <div class="place__text">
@@ -107,7 +107,7 @@
         <h2 class="place__title">Erie, PA</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
-          <a href="#" class="place__link transparency">www.fws.gov</a>
+          <a href="https://www.fws.gov/refuge/erie" class="place__link transparency" target="_blank">www.fws.gov</a>
         </div>
         <img src="./images/place-pennsylvania.jpg" alt="Erie, PA" class="place__image">
         <div class="place__text">
@@ -121,7 +121,7 @@
         <h2 class="place__title">Ohio</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
-          <a href="#" class="place__link transparency">cedarpoint.com</a>
+          <a href="https://www.cedarpoint.com" class="place__link transparency" target="_blank">cedarpoint.com</a>
         </div>
         <img src="./images/place-ohio.jpg" alt="Ohio" class="place__image">
         <div class="place__text">
@@ -130,26 +130,28 @@
         </div>
       </div>
 
-    </article>
+    </section>
 
     <!-- Page cover -->
-    <article class="cover">
-      <div class="cover__background"></div>
-      <div class="cover__overlay"></div>
-      <div class="cover__text-box">
-        <h2 class="cover__title">Historic Route 66</h2>
-        <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill. </p>
-      </div>
-    </article>
+    <section>
+      <a class="cover" href="https://www.nps.gov/nr/travel/route66/maps66.html">
+        <div class="cover__background"></div>
+        <div class="cover__overlay"></div>
+        <div class="cover__text-box">
+          <h2 class="cover__title">Historic Route 66</h2>
+          <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill. </p>
+        </div>
+      </a>
+    </section>
 
   </main>
 
   <!-- Page footer -->
   <footer class="footer">
     <nav class="footer__link-container">
-      <a href="#" class="footer__link transparency">Maps</a>
-      <a href="#" class="footer__link transparency">Weather</a>
-      <a href="#" class="footer__link transparency">Calendar</a>
+      <a href="https://yandex.com/maps" class="footer__link transparency" target="_blank">Maps</a>
+      <a href="https://yandex.com/weather/moscow" class="footer__link transparency" target="_blank">Weather</a>
+      <a href="https://calendar.yandex.ru" class="footer__link transparency" target="_blank">Calendar</a>
     </nav>
     <p class="footer__copyright">&copy; 2021 Jake McCambley</p>
   </footer>

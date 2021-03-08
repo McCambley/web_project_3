@@ -1,9 +1,13 @@
 @import url(./__lang-link-container/header__lang-link-container.css);
 @import url(./__lang-link/header__lang-link.css);
 
+/* modifier */
+@import url(./__lang-link/_decoration/header__lang-link_decoration_underline.css);
+
 .header {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   padding: 0 48px 50px;
 }
+

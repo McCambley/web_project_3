@@ -2,6 +2,7 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  min-width: 656px;
+  width: 100%;
   margin: 0 0 32px;
+  text-align: center;
 }
