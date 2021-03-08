@@ -4,7 +4,7 @@
   margin: 0 0 32px;
 }
 
-@media (max-width : 320px) {
+@media (max-width : 360px) {
   .intro__subtitle {
     line-height: 30px;
   }

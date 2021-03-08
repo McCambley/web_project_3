@@ -5,3 +5,16 @@
   font-size: 16px;
   line-height: 18px;
 }
+
+@media (max-width : 360px) {
+  .footer__link {
+    margin-right: 0;
+    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .footer__link:last-child {
+    margin-bottom: 48px;
+  }
+}

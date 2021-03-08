@@ -7,3 +7,16 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width : 768px) {
+  .footer {
+    padding: 90px 24px 0;
+  }
+}
+
+@media (max-width : 360px) {
+  .footer {
+    padding: 64px 16px 0;
+    flex-direction: column;
+  }
+}
