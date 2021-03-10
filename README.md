@@ -6,12 +6,17 @@
   * Figma
   * Images
   * Media Queries
+* Recent Updates
+
+---
 
 ## About
 
 To the user, this is a project about traveling across the US. To the developer however, this project is about utilizing technologies to create a more enjoyable user experience accross a multitude of devices. Put more concisely, **this project is about pixel-perfect responsive web design**. Check out more information about the technologies used below.
 
 To visit the project live, [click here](https://mccambley.github.io/web_project_3/)!
+
+---
 
 ## Technolgies
 
@@ -31,5 +36,14 @@ To visit the project live, [click here](https://mccambley.github.io/web_project_
 
 * I used [media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) to check the size of the user's window and display content according to how it might best be viewed. No matter if you're viewing the page on a giant desktop screen, or the smallest smartphone screen, the page will adapt and still look good.
 
-Enjoy!
+---
 
+## *Recent Updates*
+
+* *Adjusted breakpoints of media queries optimize display on devices with edge case dimensions*
+* *Refactored styling and breakpoints override default styling at device widths in descending order, rather than in both directions as before*
+* *Fixed an issue where absolute positioning of text in cover block created unpredictable alignment*
+* *Adjusted photo grid columns to recalculate independed of breakpoints*
+* *Addressed minor formatting improvements, some of which prevented horizontal scrolling on smaller screens*
+
+Enjoy!

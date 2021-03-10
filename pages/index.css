@@ -19,27 +19,3 @@
 
 /* animation stylesheets */
 @import url(../blocks/transparency/transparency.css);
-
-
-/* modifiers by block */
-
-/* Notes:
-
-@media (max-width: 1279px) {
-  style {
-
-  }
-}
-
-@media (max-width: 1023px) {
-  style {
-
-  }
-}
-
-@media (max-width: 675px) {
-  style {
-
-  }
-}
-*/
