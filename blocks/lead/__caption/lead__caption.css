@@ -2,15 +2,17 @@
   align-self: flex-start;
   font-size: 10px;
   line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .lead__caption {
     padding-left: 24px;
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 675px) {
   .lead__caption {
     padding-left: 16px;
   }

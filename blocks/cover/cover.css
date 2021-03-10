@@ -14,15 +14,12 @@
   align-items: center;
   text-decoration: none;
   color: #FFFFFF;
+  box-sizing: border-box;
+  padding: 0 48px 0;
 }
 
-.cover:hover .cover__overlay {
-  opacity: .8;
-}
-
-@media (min-width: 1280px) {
+@media (max-width: 1279px) {
   .cover {
-    box-sizing: border-box;
-    padding: 0 48px 0;
+    padding: 0;
   }
 }

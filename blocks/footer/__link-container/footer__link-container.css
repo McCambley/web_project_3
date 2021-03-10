@@ -1,6 +1,13 @@
-@media (max-width: 360px) {
+.footer__link-container {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media (max-width: 675px) {
   .footer__link-container {
-    display: flex;
     flex-direction: column;
   }
 }

@@ -8,22 +8,23 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 0 48px 50px;
+  padding: 0 148px 58px;
 }
 
-@media (min-width: 1280px) {
+@media (max-width: 1279px) {
   .header {
-    padding: 0 148px 58px;
+    padding: 0 48px 50px;
+
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .header {
     padding: 0 24px 50px;
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 675px) {
   .header {
     padding: 0 16px 50px;
   }

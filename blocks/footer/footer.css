@@ -1,6 +1,8 @@
 @import url(./__copyright/footer__copyright.css);
 @import url(./__link-container/footer__link-container.css);
 @import url(./__link/footer__link.css);
+@import url(./__link-wrapper/footer__link-wrapper.css);
+
 
 .footer {
   padding: 92px 48px 0;
@@ -8,13 +10,13 @@
   justify-content: space-between;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .footer {
     padding: 90px 24px 0;
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 675px) {
   .footer {
     padding: 64px 16px 0;
     flex-direction: column;

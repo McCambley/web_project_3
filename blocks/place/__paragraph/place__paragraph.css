@@ -4,10 +4,9 @@
   line-height: 163%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .place__paragraph {
     margin: 0 0 24px;
     font-size: 16px;
-    line-height: 163%;
   }
 }

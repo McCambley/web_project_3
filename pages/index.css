@@ -25,25 +25,21 @@
 
 /* Notes:
 
-@media (min-width: 1280px) {
+@media (max-width: 1279px) {
   style {
 
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   style {
 
   }
 }
 
-Note: Using 360px here in order to improve
-layout on modern smart phones (Specifically... mine)
-
-@media (max-width: 360px) {
+@media (max-width: 675px) {
   style {
 
   }
 }
-
 */

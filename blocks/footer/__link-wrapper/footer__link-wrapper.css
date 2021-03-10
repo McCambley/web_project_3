@@ -1,0 +1,11 @@
+
+@media (max-width: 675px) {
+  .footer__link-wrapper {
+    margin-bottom: 32px;
+    line-height: 24px;
+  }
+
+  .footer__link-wrapper:last-child {
+    margin-bottom: 48px;
+  }
+}

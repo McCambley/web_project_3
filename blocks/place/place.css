@@ -9,18 +9,18 @@
 .place {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 48px 32px;
   padding-bottom: 80px;
+  grid-gap: 48px 40px;
   box-sizing: border-box;
 }
 
-@media (min-width: 1280px) {
+@media (max-width: 1279px) {
   .place {
-    grid-gap: 48px 40px;
+    grid-gap: 48px 32px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .place {
     grid-gap: 48px 28px;
     padding-bottom: 72px;
@@ -28,10 +28,10 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 675px) {
   .place {
     grid-template-columns: 1fr;
     padding-bottom: 49px;
-    grid-gap: 32px;
+    grid-gap: 30px;
   }
 }

@@ -12,10 +12,10 @@
   <!-- Page header -->
   <header class="header">
     <img src="./images/logo.svg" alt="The USA" class="logo">
-    <nav class="header__lang-link-container">
-      <a href="www.example.com" class="header__lang-link transparency header__lang-link_active" target="_self">EN</a>
-      <a href="www.example.com" class="header__lang-link transparency" target="_self">ES</a>
-    </nav>
+    <div class="header__lang-link-container">
+      <a href="www.example.com" class="header__lang-link transparency header__lang-link_active" target="_self">En</a>
+      <a href="www.example.com" class="header__lang-link transparency" target="_self">Es</a>
+    </div>
   </header>
 
   <!-- Main body   -->
@@ -25,8 +25,10 @@
     <section class="lead">
       <h1 class="lead__title">From Portland to Portland</h1>
       <h2 class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</h2>
-      <img class="lead__image" src="./images/lead-mountains.jpg" alt="Mountains">
-      <p class="lead__caption">YOUR JOURNEY STARTS HERE</p>
+      <figure class="lead__figure">
+        <img class="lead__image" src="./images/lead-mountains.jpg" alt="Mountains">
+        <figcaption class="lead__caption">your journey starts here</figcaption>
+    </figure>
     </section>
 
     <!-- Page introduction -->
@@ -60,7 +62,7 @@
 
     <!-- Places column -->
     <!-- I'm going to style one before I populate the masses for sanities sake -->
-    <section class="places">
+    <article class="places">
 
       <div class="place">
         <h2 class="place__title">Maine</h2>
@@ -130,7 +132,7 @@
         </div>
       </div>
 
-    </section>
+    </article>
 
     <!-- Page cover -->
     <section>
@@ -148,10 +150,12 @@
 
   <!-- Page footer -->
   <footer class="footer">
-    <nav class="footer__link-container">
-      <a href="https://yandex.com/maps" class="footer__link transparency" target="_blank">Maps</a>
-      <a href="https://yandex.com/weather/moscow" class="footer__link transparency" target="_blank">Weather</a>
-      <a href="https://calendar.yandex.ru" class="footer__link transparency" target="_blank">Calendar</a>
+    <nav>
+      <ul class="footer__link-container">
+        <il class="footer__link-wrapper"><a href="https://yandex.com/maps" class="footer__link transparency" target="_blank">Maps</a></il>
+        <il class="footer__link-wrapper"><a href="https://yandex.com/weather/moscow" class="footer__link transparency" target="_blank">Weather</a></il>
+        <il class="footer__link-wrapper"><a href="https://calendar.yandex.ru" class="footer__link transparency" target="_blank">Calendar</a></il>
+      </ul>
     </nav>
     <p class="footer__copyright">&copy; 2021 Jake McCambley</p>
   </footer>

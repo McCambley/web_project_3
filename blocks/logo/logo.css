@@ -2,7 +2,7 @@
   max-width: 190px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 675px) {
   .logo {
     max-width: 156px;
   }
