@@ -25,11 +25,12 @@ To visit the project live, [click here](https://mccambley.github.io/web_project_
 
 ### Mobile
 
-![Demonstration](./src/images/demo.gif)
+![Mobile Demo](https://user-images.githubusercontent.com/74033573/145724189-404cd00a-39ea-4c84-b8b5-a1de0c08e629.png)
 
 ### Desktop
 
-![Demonstration](./src/images/demo.png)
+![Desktop Demo](https://user-images.githubusercontent.com/74033573/145724181-1b6fdbdd-3626-4d15-9167-42160ad4cd8e.gif)
+
 
 ---
 
