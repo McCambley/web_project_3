@@ -7,9 +7,11 @@
   - Figma
   - Images
   - Media Queries
-- Demo
+- Screenshots and Demo
 - Getting Started
 - Recent Updates
+
+### Check out a live demo of this project [here](https://youtu.be/zEunkGz6Q74)
 
 ---
 
@@ -21,7 +23,7 @@ To visit the project live, [click here](https://mccambley.github.io/web_project_
 
 ---
 
-## ✨ Demo
+## ✨ Screenshots - [Live Demo](https://youtu.be/zEunkGz6Q74)
 
 ### Mobile
 
