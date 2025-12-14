@@ -19,8 +19,6 @@
 
 To the user, this is a project about traveling across the US. To the developer however, this project is about utilizing technologies to create a more enjoyable user experience accross a multitude of devices. Put more concisely, **this project is about pixel-perfect responsive web design**. Check out more information about the technologies used below.
 
-To visit the project live, [click here](https://mccambley.github.io/web_project_3/)!
-
 ---
 
 ## ✨ Screenshots - [Live Demo](https://youtu.be/zEunkGz6Q74)
